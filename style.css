@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+.tittle{
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5rem;
+    gap: 1.5rem
+}
+
+input{
+    width: 100%;
+    justify-items: center;
+}
+
+
+.choice{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.calculation{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+.last-ele .content{
+    color: red
+}
+
+.cal-button{
+    padding: 0rem 1rem;
+}
+
+button{
+    border-width: 1px;
+}
